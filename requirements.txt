@@ -1,0 +1,7 @@
+requests
+pandas
+scikit-learn
+numpy
+matplotlib
+snakemake
+https://github.com/ydataai/ydata-profiling/archive/master.zip

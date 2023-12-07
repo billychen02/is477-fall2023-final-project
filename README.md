@@ -1,4 +1,4 @@
-# Analaysis of UCI Diagnostic Breast Cancer Data 
+# Analaysis of UCI Diagnostic Breast Cancer Data
 
 ## **Overview:**
 
