@@ -1,0 +1,20 @@
+Average Radius of a Benign Tumor Cell:  8.603469094304389
+Average Radius of a Malignant Tumor Cell:  13.068908018867925 
+
+Average Compactness of a Benign Tumor Cell:  0.09473180578898227
+Average Compactness of a Malignant Tumor Cell:  0.18409768396226414 
+
+Average Concavity of a Benign Tumor Cell:  0.07943069309056956
+Average Concavity of a Malignant Tumor Cell:  0.2177347641509434
+
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98        75
+           1       1.00      0.92      0.96        39
+
+    accuracy                           0.97       114
+   macro avg       0.98      0.96      0.97       114
+weighted avg       0.97      0.97      0.97       114
