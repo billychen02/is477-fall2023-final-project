@@ -1,0 +1,37 @@
+{
+    "creators": [
+        {
+            "orcid": "0009-0005-4208-5633",
+            "affiliation": "University of Illinois at Urbana Champaign",
+            "name": "Chen, Billy"
+        },
+        {
+            "orcid": "0009-0009-5749-2169",
+            "affiliation": "University of Illinois at Urbana Champaign",
+            "name": "Pongrojpaw, Peter" 
+        }
+    ],
+    "title": "Analaysis of UCI Diagnostic Breast Cancer Data",
+
+    "Description": "The purpose of this repository is to reproduce the results reported of the Breast Cancer Wisconsin (Diagnostic) by Wolberg, W., Mangasarian, O., Street, N., and Street, W. (1995), utilizing UC Irvine Machine Learning Repository. The data are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass, indicating the traits and characteristics of the nuclei cell captured in the image. The analysis will evaluate 10 corresponding features that influenced the tumor cell analysis: radius, concavity, compactness, texture, perimeter, area, smoothness, concave points, symmetry, and fractal dimension.",
+    
+    "Access Right": "This repository is public and can be accessed by anyone under the term of use of our licensing, see README.md",
+    
+    "license": "MIT License",
+
+
+    "related_identifiers": [
+        {
+            "scheme": "doi",
+            "identifier": "10.24432/C5DW2B",
+            "relation": "cites",
+            "resource_type": "dataset"
+        },
+        {
+            "scheme": "url",
+            "identifier": "https://github.com/billychen02/is477-fall2023-final-project",
+            "relation": "isSupplementedBy",
+            "resource_type": "workflow"
+        }
+    ]
+}
