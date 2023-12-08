@@ -1,7 +1,7 @@
 # Analaysis of UCI Diagnostic Breast Cancer Data
 
 ## **Overview:**
-The purpose of this repository is to reproduce the results reported of the "Breast Cancer Wisconsin (Diagnostic)" by Wolberg, W., Mangasarian, O., Street, N., and Street, W. (1995), utilizing UC Irvine Machine Learning Repository. The data are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass, indicating the traits and characteristics of the nuclei cell captured in the image. The analysis will evaluate 10 corresponding features that influenced the tumor cell analysis: radius, concavity, compactness, texture, perimeter, area, smoothness, concave points, symmetry, and fractal dimension. The first three factors are selected for further analysis and visualization to determine the differences between benign and malignant tumors.
+The purpose of this repository is to reproduce the results reported of the "Breast Cancer Wisconsin (Diagnostic)" by Wolberg, W., Mangasarian, O., Street, N., and Street, W. (1995), utilizing UC Irvine Machine Learning Repository. The data are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass, indicating the traits and characteristics of the nuclei cell captured in the image. The analysis will evaluate 10 corresponding features that influenced the tumor cell analysis: radius, concavity, compactness, texture, perimeter, area, smoothness, concave points, symmetry, and fractal dimension. The first three factors are selected for further analysis and visualization to determine the differences between benign and malignant tumors. We have also calculated and included the summary statistics that indiicates the mean, median, and standard deviation for all 30 corresponding factors.
 
 ## **Contributions:**
 Peter - 
@@ -14,6 +14,7 @@ We have performed random forest classification to train breast tumor data to ide
 
 ## **Workflow:**
 
+![Visualization of the workflow graph] (https://edotor.net/?engine=dot#%23%20Place%20the%20cursor%20inside%20%22graph%22%20to%20get%20some%20refactoring%20options%0A%0Adigraph%20G%20%7B%0Arankdir%3DTB%0Afontname%3DCourier%3B%20fontsize%3D18%3B%20labelloc%3Dt%0A%0Anode%20%5Bshape%3Dbox%20style%3D%22filled%2C%20rounded%22%2C%20fillcolor%20%3D%20%22%23FFFFD1%22%5D%0A%22data%5Cwdbc.data%22%0A%22data%5Cwdbc.names%22%0A%22data%5Cwdbc.data%22%0A%22profiling%2Freport.html%22%0A%22data%5Cwdbc.data%22%0A%22results%2FBM_comparison.png%22%0A%22results%2Ffeature_importance.png%22%0A%22summary_stats.csv%22%0A%22wisconsin_breast_cancer_analysis.txt%22%0A%0Anode%20%5Bshape%3Dbox3d%20style%3D%22filled%2C%20rounded%22%2C%20fillcolor%20%3D%20%22%23D6FDD0%22%5D%0A%22analyze%22%0A%22prepare%22%0A%0Aedge%20%5Bcolor%20%3D%20black%5D%0A%22data%5Cwdbc.data%22%20-%3E%20%22profile%22%0A%22data%5Cwdbc.data%22%20-%3E%20%22analyze%22%0A%22prepare%22%20-%3E%20%22data%5Cwdbc.data%22%0A%22prepare%22%20-%3E%20%22data%5Cwdbc.names%22%0A%22profile%22%20-%3E%20%22profiling%2Freport.html%22%0A%22analyze%22%20-%3E%20%22results%2FBM_comparison.png%22%0A%22analyze%22%20-%3E%20%22results%2Ffeature_importance.png%22%0A%22analyze%22%20-%3E%20%22summary_stats.csv%22%0A%22analyze%22%20-%3E%20%22wisconsin_breast_cancer_analysis.txt%22%0A%0A%7D%0A)
 
 ## **Reproducing:**
 
@@ -29,7 +30,7 @@ For reproducing the results from this repository, here are some things to set up
 
 <li>Reproducing the analyses and plots using scripts: To create the two png files of the graph, summary_stats.csv and the results given for you in the wisconsin_breast_cancer_analysis.txt, you will need to use the analyze.py scripts. All the process is relatively automatic after you manually unzip the file in the "data" folder, the scripts will import all the packages you need after you download the dependencies in the requirements and perform the calculation and plotting to the "results" folder as needed. </li>
 
-<li>Reproducing the the workflow diagram:  </li>
+<li>Reproducing the the workflow diagram: We have utilized the dag.py file to create the DOT file, and then we ran all the codes, and migrarte the output to the edotor.net website to create the digraph for the visualization purpose.  </li>
 
 </ol>
 
