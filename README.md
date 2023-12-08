@@ -17,7 +17,21 @@ We have performed random forest classification to train breast tumor data to ide
 
 ## **Reproducing:**
 
-1. 
+For reproducing the results from this repository, here are some things to set up before the action. 
+<ol>
+<li>Environment Check: Open the environment.log file in the repository to view details of specific libraries and versions used such as the system type, system version, python version to make sure you are on the write platform to use the codes. </li>
+
+<li>Dependencies Installation: Install the dependencies using "pip install -r requirements.txt". </li>
+
+<li>Datasets Acquisition: After setting up your machine with the right dependencies and versions (could use virtual environment to do so for the older version of python for this specific project for the report making), open the "prepare_data" script and run it using the right python version and it will provide you with the exact files needed for the reproduction of the results in this repository.An important addition made to the data was that after you manually unzip the file downloaded with prepare_data.py, you will have to manually add a line before the beginning of the wdbc.data with the corresponding column names so that the rest of the functions and dataframe making with Pandas will run smoothly since the dataset comes in as pure data csv file with any data labels or naming. But this information of each column is provided on the UCI website when acquiring for the breast cancer dataset. </li>
+
+<li>Reproducing the profiling report: To create the report.html, we utilize a python package called ydata profiling. They offer a function called profile report that turns your dataframe or your data into a html report that you can view via browsers.Once you unzip the file from the downloaded, the script automatically uses the default unzip name of the .data file and turn it into a report for further usage in the profiling folder. </li>
+
+<li>Reproducing the analyses and plots using scripts: To create the two png files of the graph, summary_stats.csv and the results given for you in the wisconsin_breast_cancer_analysis.txt, you will need to use the analyze.py scripts. All the process is relatively automatic after you manually unzip the file in the "data" folder, the scripts will import all the packages you need after you download the dependencies in the requirements and perform the calculation and plotting to the "results" folder as needed. </li>
+
+<li>Reproducing the the workflow diagram:  </li>
+
+</ol>
 
 ## **Licenses:**
 
