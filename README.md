@@ -4,9 +4,9 @@
 The purpose of this repository is to reproduce the results reported of the "Breast Cancer Wisconsin (Diagnostic)" by Wolberg, W., Mangasarian, O., Street, N., and Street, W. (1995), utilizing UC Irvine Machine Learning Repository. The data are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass, indicating the traits and characteristics of the nuclei cell captured in the image. The analysis will evaluate 10 corresponding features that influenced the tumor cell analysis: radius, concavity, compactness, texture, perimeter, area, smoothness, concave points, symmetry, and fractal dimension. The first three factors are selected for further analysis and visualization to determine the differences between benign and malignant tumors. We have also calculated and included the summary statistics that indiicates the mean, median, and standard deviation for all 30 corresponding factors.
 
 ## **Contributions:**
-Peter - 
+Peter - Peter has contributed to the most of the analysis and elaboration of the Readme file, explaning each steps of analysis and put into words. He also works extensively with the visualization part (step 9) and work together with Billy on the Random Forest Classification coding and result interpretation.
 
-Billy - 
+Billy - Billy has contributed extensively from step 5 to step 8 (write a script prepare_data, profile, analysis, and create Snakefile) and the virtual environment section. He has worked with Peter on the coding and classification part to create the random forest classification model. He also responsibles for creating the zenodo.json and integrate that with our Github repository.
 
 ## **Analysis:**
 
