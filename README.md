@@ -30,7 +30,7 @@ For reproducing the results from this repository, here are some things to set up
 
 <li>Reproducing the analyses and plots using scripts: To create the two png files of the graph, summary_stats.csv and the results given for you in the wisconsin_breast_cancer_analysis.txt, you will need to use the analyze.py scripts. All the process is relatively automatic after you manually unzip the file in the "data" folder, the scripts will import all the packages you need after you download the dependencies in the requirements and perform the calculation and plotting to the "results" folder as needed. </li>
 
-<li>Reproducing the the workflow diagram: We have utilized the dag.py file to create the DOT file, and then we ran all the codes, and migrarte the output to the edotor.net website to create the digraph for the visualization purpose.  </li>
+<li>Reproducing the the workflow diagram: We have utilized the dag.py file to create the DOT file, and then we ran all the codes, and migrarte the output to the edotor.net website to create the digraph for the visualization purpose.The visual of the workflow diagram will then be produced and you can share it by copying the share link in the edotor.net website and paste it on github with image embedding markdown. </li>
 
 </ol>
 
