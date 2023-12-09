@@ -1,5 +1,7 @@
 # Analaysis of UCI Diagnostic Breast Cancer Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10311477.svg)](https://doi.org/10.5281/zenodo.10311477)
+
 ## **Overview:**
 The purpose of this repository is to reproduce the results reported of the "Breast Cancer Wisconsin (Diagnostic)" by Wolberg, W., Mangasarian, O., Street, N., and Street, W. (1995), utilizing UC Irvine Machine Learning Repository. The data are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass, indicating the traits and characteristics of the nuclei cell captured in the image. The analysis will evaluate 10 corresponding features that influenced the tumor cell analysis: radius, concavity, compactness, texture, perimeter, area, smoothness, concave points, symmetry, and fractal dimension. The first three factors are selected for further analysis and visualization to determine the differences between benign and malignant tumors. We have also calculated and included the summary statistics that indiicates the mean, median, and standard deviation for all 30 corresponding factors.
 
